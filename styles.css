@@ -1,3 +1,46 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 100px auto 40px auto;
+  width: 50%;
+  min-width: 400px;
+}
 h1 {
-  color: blueviolet;
+  font-weight: bold;
+}
+
+p > span {
+  color: rgb(8, 110, 8);
+}
+
+main {
+  height: 100vh;
+  border-top: solid 3px rgb(49, 49, 49);
+  background: grey;
+}
+
+section {
+  padding: 10px;
+  margin: 50px auto;
+  min-width: 400px;
+  max-width: 600px;
+  background: white;
+  border-bottom: solid 3px rgb(49, 49, 49);
+}
+
+h2 {
+  margin-left: -20px;
+  padding: 10px;
+  width: max-content;
+  background: rgb(255, 208, 0);
+  border-bottom: solid 3px rgb(185, 151, 0);
+}
+section > p {
+  padding: 20px 10px 10px 10px;
 }
